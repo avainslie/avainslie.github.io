@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>medBay</title>
+  <link rel="stylesheet" type="text/css" href="../static/style.css"> 
+</head>
+<body>
+  <div class = "medBay-container" >
+    <div class="picture"></div>
+      <div class="medBay">
+        <h1> Accurately measuring your pets' oxygen in surgery 
+        </h1>
+        <p> Enter your email to stay updated </p>
+        <form action="https://formspree.io/f/xnqovlro" method="POST" class="medBay-form" id= "my-form">
+          <input type="email" name="email" class="emailInput" required>
+          <input type="submit" name="submit" class="btn" value="Submit">
+          <input type="hidden" name="_next" value="thanks.html" />
+        </form>
+        <div id = "status" ></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
