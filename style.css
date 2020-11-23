@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c3a47;
+}
+
+
+.medBay-container{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.picture{
+    width:50%;
+    background: url(medBayHomepic3.png) no-repeat center;
+    background-size: cover;
+   
+}
+
+.medBay{
+   width: 50%;
+   padding: 200px 8%; 
+}
+
+.medBay h1{
+    margin-bottom: 20px;
+    color: #2c3a47;
+    font-weight: 900;
+}
+
+.medBay p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+.medBay-form{
+    height: 68px;
+    background-color: #2c3a47;
+    border-radius: 3px;
+    display: flex;
+    padding: 8px 0;
+}
+
+.emailInput,.btn{
+    background: none;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    transition: .2s linear;
+}
+
+.emailInput{
+    width: calc(100% - 120px);
+    padding: 20px;
+    color: #f1f1f1;
+}
+
+.emailInput::placeholder{
+    color: #f1f1f1;
+}
+
+.emailInput:focus{
+    padding-left: 30px;
+}
+
+.btn{
+    width: 120px;
+    text-transform: uppercase;
+    color: #f1f1f1bb;
+    cursor: pointer;
+    border-left: 1px solid #777;
+}
+
+.btn:hover{
+    color: #f1f1f1;
+}
+
+@media screen and (max-width:900px){
+    .picture{
+        width: 100%;
+        height: 360px;
+    }
+    .medBay{
+        width: 100%;
+        padding: 100px 20%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .medBay{
+        padding: 100px 30px;
+    }
+}
+
+
+
