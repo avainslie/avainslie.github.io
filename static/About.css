@@ -38,6 +38,20 @@ ul li a{
 }
 h1{
     margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 170px;
     color: #2c3a47;
     font-weight: 900;
+    padding: 20px;
+}
+h2{
+    color: #2c3a47;
+    margin-left: 15px; 
+    padding: 30px;
+    text-align: center;
+}
+p{
+    color: #2c3a47;
+    margin-left: 370px;
+    padding: 30px;
 }
