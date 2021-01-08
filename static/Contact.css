@@ -37,9 +37,21 @@ ul li a{
     padding: 0 10px;
 }
 h1{
-    margin-bottom: 20px;
     color: #2c3a47;
     font-weight: 900;
-    padding: 200px;
-    padding-left: 440px;
+    padding-left: 125px;
+}
+.main{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.email{
+    
+    padding:50px;
+
+}
+.photo{
+    float: left;
+    padding-left: 120px;
 }
